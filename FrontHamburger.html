@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page with Background Image</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover bg-center" style="background-image: url('your-background-image.jpg');">
+    <header>
+        <div class="image">
+            <nav class="flex items-center justify-between p-6">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo" class="h-12"> 
+                </div>
+                <div class="hamburger md:hidden" id="hamburger">
+                    <button class="focus:outline-none">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+                <ul class="hidden md:flex space-x-4" id="navbar">
+                    <li><a href="#home" class="px-6 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">Home</a></li>
+                    <li><a href="#about" class="px-6 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">About</a></li>
+                    <li><a href="#services" class="px-6 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">Services</a></li>
+                    <li><a href="#contact" class="px-6 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu hidden" id="mobile-menu">
+                <ul class="flex flex-col items-center bg-gray-800 p-4">
+                    <li><a href="#home" class="block px-4 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">Home</a></li>
+                    <li><a href="#about" class="block px-4 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">About</a></li>
+                    <li><a href="#services" class="block px-4 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">Services</a></li>
+                    <li><a href="#contact" class="block px-4 py-2 text-white hover:bg-slate-700 hover:rounded-2xl hover:transition-all duration-500">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="text-center text-white mt-20">
+        <div class="txt">
+            <p>Learning is not just a pathway to knowledge; it's a journey of self-discovery and growth. Every new concept you grasp and every skill you acquire adds another layer to your understanding of the world. Enjoy your course!</p>
+        </div>
+    </main>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

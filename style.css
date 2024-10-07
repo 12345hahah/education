@@ -9,7 +9,7 @@ body {
     color: white;
 }
 .image{
-    background-image: url('MAIN.jpg'); /* Replace with your image */
+    background-image: url('MAIN.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;

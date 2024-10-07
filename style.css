@@ -15,12 +15,14 @@ body {
     height: 100vh;
 }
 .txt{
-    width: 800px;
+   
     color: beige;
-    padding-top: 3px;
-    padding-left: 5px;
-    text-align: center;
-    
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: 50px;
+    position: relative;
+    margin: 300px;
+    padding: 20px;
+    box-shadow: 10px;
 }
 .NAVBAR{
     background-color: rgba(0, 0, 0, 0.3);

@@ -1,0 +1,55 @@
+[{ name:"Web Development Full Course [28 HOURS] | Learn Full-Stack Web Development in 2024",
+   url:"https://youtu.be/HVjjoMvutj4?si=fgR65eTaen16L5PB",
+   price:'0',
+   description:"Welcome to our full course on web development! In this course, you will learn all the skills needed to become a proficient web developer. We will cover a wide range of topics, including HTML, CSS, JavaScript, responsive design, and more. Whether you are a complete beginner or have some experience in web development, this course is suitable for you. By the end of this course, you will be able to build your own fully functional websites from scratch. So if you want to start a new career in web development or just want to improve your skills, this course is for you. Enroll now and let's get started!",
+   rating:"3.5",
+   type:"Web Development",
+   image:"HVjjoMvutj4-HD.jpg"
+},
+{
+    name:"Web Development Course",
+    url:"https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=ro_UujkOns_DNlIO",
+    price:'0',
+    description:"Dive into the world of web development with this curated playlist, designed for beginners and seasoned developers alike. Explore essential concepts, from HTML and CSS basics to advanced JavaScript techniques. Each video provides clear, step-by-step tutorials and practical examples, empowering you to build responsive, dynamic websites. Whether you're looking to enhance your skills or start from scratch, this playlist will guide you through the fundamentals and beyond. Join us on this coding journey and unlock your potential in web development!"'
+    rating:"4.0",
+    type:"Web Development",
+    image:"apnaCollege.jpeg",
+},
+{
+    name:"Full Stack Development Coursee",
+    url:"https://pwskills.com/course/best-full-stack-web-development",
+    price:'20000',
+    description:"Master Full Stack Web Development with PW Skills interactive coursework and hands-on learning experience throughout this course. Engage in real-time projects and advanced interactive coursework with expert guidance.",
+    rating:"4",
+    type:"Full Stack",
+    image:"physicsWallah.jpeg"
+},
+{
+    name:"Delta 4.0",
+    url:"https://www.apnacollege.in/course/delta-feb-24",
+    price:'6780',
+    description:"Delta 4.0 | Full Stack Web Development Course (MERN)
+                Let's get the journey started!",
+    rating:"4",
+    type:"Full Stack Development",
+    image:"delta.jpeg"
+},
+{
+    name:"Mern Stack + DSA using java" 
+    url:"https://learn.completecoding.in/courses/MERN-DSA-663ae8fc26c96e1d219dd8b7",
+    price:'10999',
+    description:"We have designed our entire course around LeetCode, the leading and most up-to-date DSA platform in the world. Our course includes detailed video solutions for over 300 LeetCode problems.",
+    rating:"4.5",
+    type:"Mern Stack = Full Stack Development",
+    image:"kg college.jpg",
+
+},
+{
+    name:"Complete web development course",
+    url:"https://www.udemy.com/course/web-dev-master/?couponCode=IND21PM",
+    price:'449',
+    description:"Only web development course that you will need. Covers HTML, CSS, Tailwind, Node, React, MongoDB, Prisma, Deployment etc"'
+    rating:"4.8",
+    type:"Web Development",
+    image:"udemy.jpg"
+}]

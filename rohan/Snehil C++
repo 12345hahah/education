@@ -1,0 +1,83 @@
+[{ name:"C++ Tutorial in Hindi",
+url:"https://youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&si=szTUTeWAl6byMfPT",
+Price:"0",
+Description:"This C++ tutorials for beginners will teach you all the c plus plus concepts from the very starting to the end. This Cpp course will introduce you to programming and will continue the discussion on how to write efficient, fast and better CPP programs.",
+Rating:"4",
+Type:"C++",
+Image:"cw1.jpg",
+},
+
+
+
+
+{ name:"Complete C++ Tutorial in One Shot 2023 | Beginner To Advance | Basics Of C++ Programming",
+url:"https://youtu.be/e7sAf4SbS_g?si=Vdh3dHtQfYI4x7Pa",
+Price:"0",
+Description:"Would you like to learn all about the basics of the C++ language? In this one-shot course, we'll start from the very basics and work our way up to all the foundation topics.
+
+If you're interested in learning about the basics of the C++ language, then this course is for you! In this course, we'll cover everything from basics of the C++ language to topics like conditionals, loops, pattern printing, functions, pointers, recursion and very basic data structures like arrays, 2D arrays and Strings. This course is perfect for anyone looking to start learning about the C++ language!
+",
+Rating:"4",
+Type:"C++",
+Image:"cw.webp",
+},
+
+
+
+{name:"Decode C++ with DSA Course",
+url:"https://pwskills.com/course/dsa-cpp",
+Price:"3500",
+Description:"Master C++ with DSA at PW Skills and engage in an interactive learning environment with top industry experts guiding you throughout the course specifically designed for people who want to build their career in tech industry.",
+Rating:"4.5",
+Type:"C++",
+Image:"PW.png",
+},
+
+
+
+
+{name:"Mastering C++ : Basics, STL & OOPs 30 Lectures Hindi 4.9",
+url:"https://www.codehelp.in/course/mastering-cpp",
+Price:"199",
+Description:"A Beginner to Proficient Coder Guide on C++. Embark on a transformative C++ programming course, transitioning from beginner to skilled coder. Master fundamentals, Standard template library, OOPs concepts, and practical application through hands-on projects, preparing you for software development or personal projects with confidence and proficiency.",
+Rating:"4.9",
+Type:"C++",
+Image:"cs.webp",
+},
+
+
+
+
+{name:"Beginning C++ Programming - From Beginner to Beyond",
+url:"https://www.udemy.com/share/101Wd4/",
+Price:"449",
+Description:"Obtain Modern C++ Object-Oriented Programming (OOP) and STL skills. C++14 and C++17 covered. C++20 info see below.",
+Rating:"4.6",
+Type:"C++",
+Image:"ud.jpg",
+},
+
+
+
+
+{name:"C++ DSA Batch | for Placements",
+url:"https://pages.razorpay.com/cpp-dsa",
+Price:"5750",
+Description:"Course Duration - 4 months
+Course access will be 15 months.
+
+With this course, you will get:
+
+Complete C++ Language
+Complete Data Structures & Algorithms
+Doubt Assistance with TAs
+Library of Qs with Video Solutions of Top Companies
+Alternate Day Chapters
+Live Resume Preparation
+Live Interview Preparation & other sessions
+300+ Coding Questions on All Important Topics (asked by Top Companies)
+Course Start Date - 18th April, 2024",
+Rating:"4.2",
+Type:"C++",
+Image:"ac.jpeg",
+}]

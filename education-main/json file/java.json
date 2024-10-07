@@ -1,0 +1,38 @@
+[{ "name":"Java and DSA course for placements",
+  "url":"https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&si=hjEA9a73CzQ7wNaT",
+  "price": 0 ,
+  "Description":"Topics Covered : Java Language required for DSA.Data Structures and Algorithms covered till Graphs.",
+  "Rating":"4",
+  "Type":"Java",
+  "Image":"apna2.jpg"
+},
+{  "name":"Java + DSA + Interview Preparation Course",
+   "url":"https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=MoMes3bft2TmKq3-",
+   "price": 0,
+   "Description":"Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease.",
+   "Rating":"4",
+   "Type":"Java",
+   "Image":"kunal2.jpg"
+},
+{ "name":"Java Course - Mastering the Fundamentals",
+  "url":"https://www.scaler.com/topics/course/java-beginners/",
+  "price": 0,
+  "Description":"This easy-to-follow course is designed with beginners in mind, offering a structured learning path to specialize in Java programming. With no prerequisites, this online Java course empowers you to learn Java at your own pace and take the first step toward a promising career in tech.",
+  "Rating":"5",
+  "Type":"Java",
+  "Image":"scaler.webp"
+},
+{  "name":"Decode Java with DSA Course",
+   "url":"https://pwskills.com/course/decode-javadsa",
+   "price":3500,
+   "Description":"Master Data Structures and Algorithms in Java. Learn important Java frameworks and libraries and master competitive programming, DSA, web development, and more with Java. Build strong problem-solving skills and logical thinking with real-world problems in the course.",
+   "Rating":"4",
+   "Type":"Java",
+   "Image":"pw.png"
+}
+
+
+
+
+
+]

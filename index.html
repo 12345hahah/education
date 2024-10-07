@@ -5,26 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .nav-links {
+            display: none;
+        }
+        @media (min-width: 640px) {
+            .nav-links {
+                display: flex;
+            }
+        }
+    </style>
 </head>
 <body>
    
-<div class="max-h-screen container mx-auto " style="background-image: url();">
- 
+<div class="max-h-screen container mx-auto" style="background-image: url();">
+    <nav class="bg-white flex justify-between items-center border border-black dark:bg-gray-900 p-4">
+        <img src="image/logo.PNG" class="w-[15.25rem]" alt="logo">
 
-<nav class="bg-white flex border  justify-between  border-black dark:bg-gray-900">
-    <img src="image/logo.PNG" class="w-[15.25rem]" alt="logo">
-    <ul class="m-0 p-0 flex items-center gap-5 ">
-        <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl " >Home</li>
-        <li class="hover:bg-gray-500  px-3 py-2 rounded-lg text-center border flex items-center text-2xl " >About Us</li>
-        <li class="hover:bg-gray-500  px-3 py-2 rounded-lg text-center border flex items-center text-2xl " >Contact Us</li>
-        <li class="hover:bg-gray-500  px-3 py-2 rounded-lg text-center border flex items-center text-2xl " >learning</li>
-        <div class="border flex gap-5 rounded-full ">
-            <span class="bg-black px-3 rounded- py-2 text-white ">Sing up</span>
-            <span class="bg-black px-3 py-2">Login</span>
+        <div class="block lg:hidden">
+            <button id="hamburger" class="focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
         </div>
-    </ul>
-  </nav>
+
+        <ul id="nav-links" class="nav-links m-0 p-0 gap-5 flex items-center">
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">Home</li>
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">About Us</li>
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">Contact Us</li>
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">Learning</li>
+            <div class="border flex gap-5 rounded-full">
+                <span class="bg-black px-3 rounded py-2 text-white">Sign up</span>
+                <span class="bg-black px-3 py-2">Login</span>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden lg:hidden">
+        <ul class="flex flex-col items-center bg-white border border-black">
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">Home</li>
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">About Us</li>
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">Contact Us</li>
+            <li class="hover:bg-gray-500 px-3 py-2 rounded-lg text-center border flex items-center text-2xl">Learning</li>
+            <div class="border flex gap-5 rounded-full">
+                <span class="bg-black px-3 rounded py-2 text-white">Sign up</span>
+                <span class="bg-black px-3 py-2">Login</span>
+            </div>
+        </ul>
+    </div>
 </div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
 
 </body>
 </html>

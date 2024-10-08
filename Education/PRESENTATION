@@ -1,0 +1,50 @@
+itle Slide
+Course Compare: Saving Time and Money on Learning
+Your Ultimate Solution to Smart Course Selection
+Team Name: [Your Team Name]
+Hackathon 2024
+Problem Statement
+Countless online courses available across multiple platforms
+Difficult for learners to:
+Find the best value for money
+Compare course content and prices
+Avoid spending too much time searching for relevant courses
+Our Solution
+Course Compare is a website that gathers course data and offers:
+Price comparisons between online course providers
+Information on course ratings, duration, and content highlights
+Tools to filter courses by price, ratings, and topic
+How It Works
+Search for a topic you want to learn
+Get a comparison of course prices across platforms (e.g., Udemy, Coursera, edX)
+View ratings, course length, and reviews in one place
+Select the best course based on your budget and preferences
+Features of Course Compare
+Price Matching: Compare the cost of similar courses
+User Ratings and Reviews: See what learners say about the course
+Course Duration: Know the time commitment before enrolling
+Time-Saving Filters: Sort by cost, rating, and duration
+One-Click Enrollment: Link directly to the platform
+Why Our Solution Matters
+Saves time: No need to visit multiple websites
+Saves money: Get the best value by comparing prices
+Transparency: Learners can make informed decisions
+Convenience: One platform for course comparisons
+Example Use Case
+Sarah searches for “Python Programming” on Course Compare:
+Sees courses priced from $0 to $200
+Checks ratings and selects a highly-rated course for $50, saving $100
+Enrolls directly, saving time and money
+Technical Overview
+Frontend: Built with HTML, CSS, and JavaScript
+Backend: Java and REST APIs to fetch course data
+Database: Stores course details, ratings, and platform data
+Security: Ensures user data protection
+The Future of Course Compare
+AI-Powered Recommendations: Suggest best courses based on preferences
+Discount Alerts: Notify users of price drops
+Collaboration Features: Share comparisons with others
+Global Expansion: Offer comparisons in different languages
+Conclusion
+Course Compare simplifies choosing online courses
+Helps learners save time and money by offering price comparisons, ratings, and more in one place
